@@ -1698,7 +1698,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #81f688;
+  background: #3e0500;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2544,4 +2544,62 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.header {
+  background: url("../images/bg.jpg");
+}
+.site-subtitle {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 15px;
+  color: #fff;
+}
+.site-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+.brand {
+  background: transparent;
+}
+.menu {
+  margin-top: 20px;
+  padding-left: 0;
+  text-align: center;
+  background: rgba(240,240,240,0.5);
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-radius: initial;
+}
+a {
+  color: rgba(0,0,0,0.8);
+}
+a:hover {
+  color: #ff106c;
+  border-bottom-color: #ff106c;
+}
+.menu .menu-item a {
+  font-size: 14px;
+}
+.menu .menu-item a:hover {
+  border-bottom-color: #ff106c;
+}
+.post {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 18px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.8);
+}
+.site-description {
+  font-size: 16px;
+}
+.site-author-name {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 20px;
+}
+.posts-expand .post-eof {
+  margin: 40px auto 40px;
+  background: #fff;
+}
+.btn {
+  margin-top: 20px;
 }
