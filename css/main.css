@@ -1827,7 +1827,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #dfff04;
+  background: #d7ffd5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2757,6 +2757,40 @@ embed {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.site-subtitle {
+  font-size: 18px;
+  color: #fff;
+}
+.site-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.brand {
+  background: transparent;
+}
+.menu {
+  margin-top: 20px;
+  padding-left: 0;
+  text-align: center;
+  background: rgba(240,240,240,0.5);
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  border-radius: initial;
+}
+.menu .menu-item a {
+  font-size: 14px;
+}
+.menu .menu-item a:hover {
+  border-bottom-color: #ff106c;
+}
+.site-description {
+  font-size: 16px;
+}
+.site-author-name {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 26px;
 }
 p#div-border-gray-all {
   display: block;
