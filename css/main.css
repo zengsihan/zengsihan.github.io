@@ -438,7 +438,7 @@ body {
 }
 @media (min-width: 1600px) {
   .container .header-inner {
-    width: 900px;
+    width: 1000px;
   }
 }
 .main {
@@ -450,7 +450,7 @@ body {
 }
 @media (min-width: 1600px) {
   .container .main-inner {
-    width: 900px;
+    width: 1000px;
   }
 }
 .footer {
@@ -467,7 +467,7 @@ body {
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
-    width: 900px;
+    width: 1000px;
   }
 }
 pre,
@@ -1827,7 +1827,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d7ffd5;
+  background: #70ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2752,11 +2752,15 @@ embed {
   display: inline-block;
 }
 .post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 18px;
+  -webkit-box-shadow: 0 0 10px rgba(202,203,203,0.8);
+  -moz-box-shadow: 0 0 10px rgba(202,203,203,0.8);
+}
+.posts-expand .post-eof {
+  margin: 40px auto 40px;
+  background: #fff;
 }
 .site-subtitle {
   font-size: 18px;
