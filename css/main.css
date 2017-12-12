@@ -1008,7 +1008,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
-  font-family: 'miti', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7c5d00;
+  background: #21f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2748,8 +2748,24 @@ embed {
   display: inline-block;
 }
 @font-face {
-  font-family: Iosevka;
+  font-family: miti;
   src: url("/fonts/miti.ttf");
+}
+@font-face {
+  font-family: okai;
+  src: url("/fonts/okai.otf");
+}
+@font-face {
+  font-family: daunning;
+  src: url("/fonts/daunning.ttf");
+}
+@font-face {
+  font-family: xiukai;
+  src: url("/fonts/xiukai.TTF");
+}
+@font-face {
+  font-family: huangcao;
+  src: url("/fonts/huangcao.ttf");
 }
 .post {
   margin-top: 20px;
@@ -2763,13 +2779,23 @@ embed {
   background: #fff;
 }
 .site-title {
-  font-size: 30px;
+  font-size: 38px;
+  letter-spacing: 2px;
   color: #fff;
-  font-family: 'miti', sans-serif;
+  font-family: 'daunning', sans-serif;
 }
 .site-subtitle {
-  font-size: 18px;
+  font-family: 'huangcao', sans-serif;
+  font-size: 20px;
   color: #fff;
+}
+.site-author-name {
+  font-family: 'okai', sans-serif;
+  letter-spacing: 1px;
+  font-size: 26px;
+}
+.site-description {
+  font-size: 16px;
 }
 .brand {
   background: transparent;
@@ -2793,13 +2819,6 @@ embed {
 }
 .menu .menu-item a:hover {
   border-bottom-color: #ff106c;
-}
-.site-description {
-  font-size: 16px;
-}
-.site-author-name {
-  font-family: 'Comic Sans MS', sans-serif;
-  font-size: 26px;
 }
 p#div-border-gray-all {
   display: block;
